@@ -7,9 +7,9 @@ import os
 from time import sleep
 
 actions = ["Nudeln", "Kartoffeln", "Reis", "Polenta", "Kartoffelbrei", "Hirsetaler", "Pommes"]
-body_parts = ["Gemüse", "Gemüse und Tofu", "Pilzen und Gemüse", "Soß", "Pilzen und Tofu", "Salat"] 
+body_parts = ["Gemüse", "Gemüse und Tofu", "Pilzen und Gemüse", "Soß", "Pilzen und Tofu", "Salat", "Schweinehälften"] 
 
-input("Was wollen Sie essen? ENTER Drücken um es herauszufinden!")
+input("Was wollen Sie essen? ENTER Drücken, um es herauszufinden!")
 
 def roll_sex_dice(): 
 	action = random.choice(actions) 
